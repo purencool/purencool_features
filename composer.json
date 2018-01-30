@@ -1,0 +1,12 @@
+{
+    "name": "purencool/purencool_features",
+    "description": "Custom feature modules that can be used in Drupal 8",
+    "license": "GPLV3",
+    "authors": [
+        {
+            "name": "purencool",
+            "email": "purencool@gmail.com"
+        }
+    ],
+    "require": {}
+}
