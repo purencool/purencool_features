@@ -1,0 +1,26 @@
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_before_content
+    - node.type.landing_page
+  module:
+    - block_field
+id: node.landing_page.field_before_content
+field_name: field_before_content
+entity_type: node
+bundle: landing_page
+label: 'Before content'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings:
+  plugin_ids:
+    help_block: help_block
+    'views_block:content_recent-block_1': 'views_block:content_recent-block_1'
+    'views_block:who_s_online-who_s_online_block': 'views_block:who_s_online-who_s_online_block'
+    social_sharing_block: social_sharing_block
+    'views_block:who_s_new-block_1': 'views_block:who_s_new-block_1'
+field_type: block_field
