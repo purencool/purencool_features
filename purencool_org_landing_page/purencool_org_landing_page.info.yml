@@ -5,7 +5,6 @@ core: 8.x
 dependencies:
   - block_field
   - field
-  - landing_page
   - menu_ui
   - node
   - path

@@ -4,6 +4,8 @@ dependencies:
   config:
     - core.entity_view_mode.node.teaser
     - field.field.node.landing_page.body
+    - field.field.node.landing_page.field_after_content
+    - field.field.node.landing_page.field_before_content
     - node.type.landing_page
   module:
     - text
@@ -24,4 +26,6 @@ content:
   links:
     weight: 100
     region: content
-hidden: {  }
+hidden:
+  field_after_content: true
+  field_before_content: true
